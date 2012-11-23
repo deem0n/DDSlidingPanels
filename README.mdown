@@ -4,8 +4,8 @@ DDSlidingPanels
 DDSlidingPanels is aimed to demonstrate new features of iOS 6:
 
 - NSLayoutConstraint
-- Animations based on constraint changes instead of frame changes
-- Embedding UIViewController into UIView as seen in Xcode storyboard/xib visual editor, but made purely in the code
+- Animations based on the constraint changes instead of the view.frame changes
+- UIViewController embedding into UIView as seen in Xcode storyboard/xib visual editor, but made purely in the code
 
 You can see the use of the DDSlidingPanels in the real App available on the AppStore: https://itunes.apple.com/us/app/luxms-bi-us-taxes/id576252055
 
