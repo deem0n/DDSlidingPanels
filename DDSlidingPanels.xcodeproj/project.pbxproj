@@ -24,6 +24,7 @@
 		2E03D3FB165F92F600DF2900 /* DDNavigationControllerWithSliders.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3F6165F92F600DF2900 /* DDNavigationControllerWithSliders.m */; };
 		2E03D3FC165F92F600DF2900 /* DDSlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3F8165F92F600DF2900 /* DDSlidingView.m */; };
 		2E03D3FD165F92F600DF2900 /* FisrstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3FA165F92F600DF2900 /* FisrstViewController.m */; };
+		2E03D3FF165F9EAC00DF2900 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3FE165F9EAC00DF2900 /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		2E03D3F8165F92F600DF2900 /* DDSlidingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSlidingView.m; sourceTree = "<group>"; };
 		2E03D3F9165F92F600DF2900 /* FisrstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisrstViewController.h; sourceTree = "<group>"; };
 		2E03D3FA165F92F600DF2900 /* FisrstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FisrstViewController.m; sourceTree = "<group>"; };
+		2E03D3FE165F9EAC00DF2900 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		2E03D3B0165F8F5F00DF2900 = {
 			isa = PBXGroup;
 			children = (
+				2E03D3FE165F9EAC00DF2900 /* README.mdown */,
 				2E03D3E0165F8FFB00DF2900 /* images */,
 				2E03D3E5165F8FFB00DF2900 /* MainStoryboard.storyboard */,
 				2E03D3C5165F8F5F00DF2900 /* DDSlidingPanels */,
@@ -199,6 +202,7 @@
 				2E03D3E8165F8FFB00DF2900 /* open_panel.png in Resources */,
 				2E03D3E9165F8FFB00DF2900 /* open_panel@2x.png in Resources */,
 				2E03D3EA165F8FFC00DF2900 /* MainStoryboard.storyboard in Resources */,
+				2E03D3FF165F9EAC00DF2900 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
