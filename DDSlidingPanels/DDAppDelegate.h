@@ -1,8 +1,8 @@
 //
 //  DDAppDelegate.h
-//  DDSlidingPanels
+//  com.yasp.slidingPanels
 //
-//  Created by Дмитрий Дорофеев on 11/23/12.
+//  Created by Дмитрий Дорофеев on 10/18/12.
 //  Copyright (c) 2012 Дмитрий Дорофеев. All rights reserved.
 //
 

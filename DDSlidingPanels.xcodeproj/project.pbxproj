@@ -16,6 +16,14 @@
 		2E03D3D2165F8F5F00DF2900 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3D1165F8F5F00DF2900 /* Default.png */; };
 		2E03D3D4165F8F5F00DF2900 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3D3165F8F5F00DF2900 /* Default@2x.png */; };
 		2E03D3D6165F8F5F00DF2900 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3D5165F8F5F00DF2900 /* Default-568h@2x.png */; };
+		2E03D3E6165F8FFB00DF2900 /* close_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3E1165F8FFB00DF2900 /* close_panel.png */; };
+		2E03D3E7165F8FFB00DF2900 /* close_panel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3E2165F8FFB00DF2900 /* close_panel@2x.png */; };
+		2E03D3E8165F8FFB00DF2900 /* open_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3E3165F8FFB00DF2900 /* open_panel.png */; };
+		2E03D3E9165F8FFB00DF2900 /* open_panel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3E4165F8FFB00DF2900 /* open_panel@2x.png */; };
+		2E03D3EA165F8FFC00DF2900 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03D3E5165F8FFB00DF2900 /* MainStoryboard.storyboard */; };
+		2E03D3FB165F92F600DF2900 /* DDNavigationControllerWithSliders.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3F6165F92F600DF2900 /* DDNavigationControllerWithSliders.m */; };
+		2E03D3FC165F92F600DF2900 /* DDSlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3F8165F92F600DF2900 /* DDSlidingView.m */; };
+		2E03D3FD165F92F600DF2900 /* FisrstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E03D3FA165F92F600DF2900 /* FisrstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,17 @@
 		2E03D3D1165F8F5F00DF2900 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2E03D3D3165F8F5F00DF2900 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2E03D3D5165F8F5F00DF2900 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E03D3E1165F8FFB00DF2900 /* close_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_panel.png; sourceTree = "<group>"; };
+		2E03D3E2165F8FFB00DF2900 /* close_panel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_panel@2x.png"; sourceTree = "<group>"; };
+		2E03D3E3165F8FFB00DF2900 /* open_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_panel.png; sourceTree = "<group>"; };
+		2E03D3E4165F8FFB00DF2900 /* open_panel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open_panel@2x.png"; sourceTree = "<group>"; };
+		2E03D3E5165F8FFB00DF2900 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = DDSlidingPanels/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2E03D3F5165F92F600DF2900 /* DDNavigationControllerWithSliders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNavigationControllerWithSliders.h; sourceTree = "<group>"; };
+		2E03D3F6165F92F600DF2900 /* DDNavigationControllerWithSliders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNavigationControllerWithSliders.m; sourceTree = "<group>"; };
+		2E03D3F7165F92F600DF2900 /* DDSlidingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSlidingView.h; sourceTree = "<group>"; };
+		2E03D3F8165F92F600DF2900 /* DDSlidingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSlidingView.m; sourceTree = "<group>"; };
+		2E03D3F9165F92F600DF2900 /* FisrstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisrstViewController.h; sourceTree = "<group>"; };
+		2E03D3FA165F92F600DF2900 /* FisrstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FisrstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,8 @@
 		2E03D3B0165F8F5F00DF2900 = {
 			isa = PBXGroup;
 			children = (
+				2E03D3E0165F8FFB00DF2900 /* images */,
+				2E03D3E5165F8FFB00DF2900 /* MainStoryboard.storyboard */,
 				2E03D3C5165F8F5F00DF2900 /* DDSlidingPanels */,
 				2E03D3BE165F8F5F00DF2900 /* Frameworks */,
 				2E03D3BC165F8F5F00DF2900 /* Products */,
@@ -78,6 +99,12 @@
 		2E03D3C5165F8F5F00DF2900 /* DDSlidingPanels */ = {
 			isa = PBXGroup;
 			children = (
+				2E03D3F5165F92F600DF2900 /* DDNavigationControllerWithSliders.h */,
+				2E03D3F6165F92F600DF2900 /* DDNavigationControllerWithSliders.m */,
+				2E03D3F7165F92F600DF2900 /* DDSlidingView.h */,
+				2E03D3F8165F92F600DF2900 /* DDSlidingView.m */,
+				2E03D3F9165F92F600DF2900 /* FisrstViewController.h */,
+				2E03D3FA165F92F600DF2900 /* FisrstViewController.m */,
 				2E03D3CE165F8F5F00DF2900 /* DDAppDelegate.h */,
 				2E03D3CF165F8F5F00DF2900 /* DDAppDelegate.m */,
 				2E03D3C6165F8F5F00DF2900 /* Supporting Files */,
@@ -97,6 +124,18 @@
 				2E03D3D5165F8F5F00DF2900 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E03D3E0165F8FFB00DF2900 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2E03D3E1165F8FFB00DF2900 /* close_panel.png */,
+				2E03D3E2165F8FFB00DF2900 /* close_panel@2x.png */,
+				2E03D3E3165F8FFB00DF2900 /* open_panel.png */,
+				2E03D3E4165F8FFB00DF2900 /* open_panel@2x.png */,
+			);
+			name = images;
+			path = DDSlidingPanels/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +194,11 @@
 				2E03D3D2165F8F5F00DF2900 /* Default.png in Resources */,
 				2E03D3D4165F8F5F00DF2900 /* Default@2x.png in Resources */,
 				2E03D3D6165F8F5F00DF2900 /* Default-568h@2x.png in Resources */,
+				2E03D3E6165F8FFB00DF2900 /* close_panel.png in Resources */,
+				2E03D3E7165F8FFB00DF2900 /* close_panel@2x.png in Resources */,
+				2E03D3E8165F8FFB00DF2900 /* open_panel.png in Resources */,
+				2E03D3E9165F8FFB00DF2900 /* open_panel@2x.png in Resources */,
+				2E03D3EA165F8FFC00DF2900 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +211,9 @@
 			files = (
 				2E03D3CC165F8F5F00DF2900 /* main.m in Sources */,
 				2E03D3D0165F8F5F00DF2900 /* DDAppDelegate.m in Sources */,
+				2E03D3FB165F92F600DF2900 /* DDNavigationControllerWithSliders.m in Sources */,
+				2E03D3FC165F92F600DF2900 /* DDSlidingView.m in Sources */,
+				2E03D3FD165F92F600DF2900 /* FisrstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +324,7 @@
 				2E03D3DB165F8F5F00DF2900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,21 +1,53 @@
 //
 //  DDAppDelegate.m
-//  DDSlidingPanels
+//  com.yasp.slidingPanels
 //
-//  Created by Дмитрий Дорофеев on 11/23/12.
+//  Created by Дмитрий Дорофеев on 10/18/12.
 //  Copyright (c) 2012 Дмитрий Дорофеев. All rights reserved.
 //
 
 #import "DDAppDelegate.h"
+#import "DDSlidingView.h"
+#import "DDNavigationControllerWithSliders.h"
 
 @implementation DDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+   DDNavigationControllerWithSliders* controller = (DDNavigationControllerWithSliders*) self.window.rootViewController;
+    UIImage * img = [UIImage imageNamed: @"open_panel.png"];
+    UIImage * closeImg = [UIImage imageNamed: @"close_panel.png"];
+    
+    [controller setLeftSlidingViewWithSliderImage:img length:300.0f];
+    controller.leftSlidingViewControllerId = @"toBeEmbedded";
+    controller.leftSlidingView.hideSliderImage = closeImg;
+    controller.leftSlidingView.headPadding = 44.0f;
+    
+
+    UIImage * img1 = [UIImage imageWithCGImage:img.CGImage scale:img.scale orientation:UIImageOrientationUpMirrored];
+    UIImage * closeImg1 = [UIImage imageWithCGImage:closeImg.CGImage scale: closeImg.scale orientation:UIImageOrientationUpMirrored];
+    
+    [controller setRightSlidingViewWithSliderImage:img1 length:300.0f];
+    controller.rightSlidingViewControllerId = @"toBeEmbeddedRight";
+    controller.rightSlidingView.hideSliderImage = closeImg1;
+    controller.rightSlidingView.headPadding = 44.0f;
+    controller.rightSlidingView.trailPadding = 44.0f;
+    
+    img1 = [UIImage imageWithCGImage:img.CGImage scale: img.scale orientation:UIImageOrientationRight];
+    closeImg1 = [UIImage imageWithCGImage:closeImg.CGImage scale: closeImg.scale orientation:UIImageOrientationRight];
+    [controller setTopSlidingViewWithSliderImage:img1 length:300.0f];
+    controller.topSlidingView.backgroundColor = [UIColor redColor];
+    controller.topSlidingView.hideSliderImage = closeImg1;
+    controller.topSlidingView.dragButtonHiddenWhenSliderHidden = YES;
+    
+    
+    img1 = [UIImage imageWithCGImage:img.CGImage scale:img.scale orientation:UIImageOrientationRightMirrored];
+    closeImg1 = [UIImage imageWithCGImage:closeImg.CGImage scale: closeImg.scale orientation:UIImageOrientationRightMirrored];
+    [controller setBottomSlidingViewWithSliderImage:img1 length:300.0f];
+
+    controller.bottomSlidingView.backgroundColor = [UIColor greenColor];
+    controller.bottomSlidingView.hideSliderImage = closeImg1;
     return YES;
 }
 
